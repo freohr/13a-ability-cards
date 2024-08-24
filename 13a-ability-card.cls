@@ -4,23 +4,25 @@
 \LoadClass[a4paper]{article}
 \RequirePackage[landscape,left=0.6cm,right=0.9cm,top=0.7cm,bottom=0cm]{geometry}
 
-\RequirePackage{calc}
-\RequirePackage{hanging}
-\RequirePackage{enumitem}
-\RequirePackage{xargs}
-\RequirePackage{etoolbox}
-\RequirePackage{ifthen}
 \RequirePackage[super]{nth}
-\RequirePackage{stringstrings}
+\RequirePackage{calc}
+\RequirePackage{enumitem}
+\RequirePackage{etoolbox}
+\RequirePackage{hanging}
+\RequirePackage{ifthen}
 \RequirePackage{intcalc}
-\RequirePackage[skip=5pt, indent=0pt]{parskip}
-\RequirePackage{multido}
+\RequirePackage{stringstrings}
+\RequirePackage{xargs}
 \RequirePackage{xstring}
-\newcommand{\Repeat}{\multido{}}
 
+\RequirePackage{inter}
 \RequirePackage{fontspec}
 \setmainfont{Inter Medium}
 
+\RequirePackage{multido}
+\newcommand{\Repeat}{\multido{}}
+
+\RequirePackage[skip=5pt, indent=0pt]{parskip}
 % \setlength{\parindent}{0 pt}
 % \setlength{\parskip}{5pt}
 
